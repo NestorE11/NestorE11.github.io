@@ -1,0 +1,301 @@
+.float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    bottom: 40px;
+    right: 40px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 999;
+}
+
+.fa-whatsapp {
+    font-size: 60px;
+}
+
+.float:hover{
+    background-color: #28ec70;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Fondo blanco */
+}
+.titulo {
+    text-align: center;
+    color: #333;
+    margin-top: 100px; /* Ajusta la distancia del título desde la parte superior */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente diferente */
+    font-size: 40px; /* Tamaño del título */
+}
+.subtitulo {
+    text-align: center;
+    color: #888; /* Color gris */
+    font-size: 14px; /* Tamaño del subtítulo */
+    margin-top: 10px; /* Ajusta la distancia entre el título y el subtítulo */
+    font-weight: bold; /* Hace que el subtítulo principal tenga las letras más gruesas */
+}
+.texto {
+    text-align: center;
+    margin-top: 40px;
+    color: #888; /* Color gris */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Mismo tipo de fuente que el subtítulo */
+    font-size: 16px; /* Tamaño del texto */
+    padding: 0 20px; /* Ajusta el relleno horizontal para evitar que los bordes se corten */
+}
+.balance-juices {
+    font-weight: bold; /* Hace que las letras sean más gruesas */
+    color: #000; /* Color negro */
+}
+.contenedor-imagen {
+    overflow: hidden; /* Para contener los elementos flotantes */
+}
+.contenedor-carmesi {
+    background-color: #FFDBAC; /* Color piel */
+    width: 651px; /* Ancho del cuadro */
+    height: 651px; /* Altura del cuadro */
+    float: right; /* Coloca el cuadro a la derecha */
+    position: relative; /* Establece posición relativa */
+}
+.foto-2 {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%; /* Tamaño medio */
+    margin-top: 0; /* Ajuste para que esté pegada al cuadro gris */
+    float: left; /* Coloca la imagen a la izquierda */
+    clear: left; /* Evita que elementos floten a la izquierda de la imagen */
+}
+.titulo-carmesi {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 30%; /* Ajusta la posición vertical del título */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Centra horizontalmente */
+    color: #000; /* Color negro */
+    font-size: 24px; /* Tamaño del texto */
+    font-weight: bold; /* Hace que el texto sea más grueso */
+}
+.texto-carmesi {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Centra exactamente */
+    color: #000; /* Color negro */
+    font-size: 14px; /* Tamaño del texto */
+    text-align: center; /* Centra horizontalmente el texto */
+}
+.rectangulo-negro {
+    background-color: #000; /* Color negro */
+    width: 1300px; /* Ancho del rectángulo */
+    height: 50px; /* Alto del rectángulo */
+    position: absolute; /* Posicionamiento absoluto */
+    top: 0; /* Apegado al borde superior */
+    left: 0; /* Apegado al borde izquierdo */
+}
+.icono-red-social {
+    width: 40px; /* Ancho de los iconos */
+    height: 40px; /* Altura de los iconos */
+    position: absolute; /* Posicionamiento absoluto */
+    top: 10px; /* Alinea verticalmente al centro */
+}
+.icono-red-social:nth-child(1) {
+    right: 170px; /* Alinea el primer icono a 30px del borde derecho */
+}
+.icono-red-social:nth-child(2) {
+    right: 120px; /* Alinea el segundo icono a 50px del borde derecho */
+}
+.icono-red-social:nth-child(3) {
+    right: 70px; /* Alinea el tercer icono a 70px del borde derecho */
+}
+.texto-blanco {
+    color: #fff; /* Color blanco */
+    display: inline-block; /* Hace que los textos estén uno al lado del otro */
+    margin: 15px 20px; /* Margen entre los textos */
+    font-size: 18px; /* Tamaño del texto */
+}
+.texto-blanco:nth-child(1) {
+    margin-left: 100px; /* Mueve el primer texto "About" hacia la derecha 50px */
+}
+.contenedor-celeste {
+    background-color: #8ED5F1; /* Color celeste */
+    width: 651px; /* Ancho del cuadro */
+    height: 650px; /* Altura del cuadro */
+    float: right; /* Coloca el cuadro a la derecha */
+    position: relative; /* Establece posición relativa */
+    margin-top: 50px; /* Espacio entre los cuadros */
+    clear: both; /* Evita que otros elementos floten alrededor */
+}
+.contenedor-azul {
+    background-color: #7aafec; /* Color piel */
+    width: 651px; /* Ancho del cuadro */
+    height: 375px; /* Altura del cuadro */
+    float: right; /* Coloca el cuadro a la derecha */
+    position: relative; /* Establece posición relativa */
+}
+.titulo-azul {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 10%; /* Ajusta la posición vertical del título */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Centra horizontalmente */
+    color: #000; /* Color negro */
+    font-size: 24px; /* Tamaño del texto */
+    font-weight: bold; /* Hace que el texto sea más grueso */
+}
+.texto-azul {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Centra exactamente */
+    color: #000; /* Color negro */
+    font-size: 14px; /* Tamaño del texto */
+    text-align: center; /* Centra horizontalmente el texto */
+}
+.contenedor-morado {
+    background-color: #c126cf; /* Color piel */
+    width: 651px; /* Ancho del cuadro */
+    height: 367px; /* Altura del cuadro */
+    float: right; /* Coloca el cuadro a la derecha */
+    position: relative; /* Establece posición relativa */
+}
+.titulo-morado {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 10%; /* Ajusta la posición vertical del título */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Centra horizontalmente */
+    color: #000; /* Color negro */
+    font-size: 24px; /* Tamaño del texto */
+    font-weight: bold; /* Hace que el texto sea más grueso */
+}
+.texto-morado {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Centra exactamente */
+    color: #000; /* Color negro */
+    font-size: 14px; /* Tamaño del texto */
+    text-align: center; /* Centra horizontalmente el texto */
+}
+.foto-3 {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%; /* Tamaño medio */
+    margin-top: 0; /* Ajuste para que esté pegada al cuadro gris */
+    float: left; /* Coloca la imagen a la izquierda */
+    clear: left; /* Evita que elementos floten a la izquierda de la imagen */
+}
+.contenedor-gris {
+    background-color: #918792; /* Color piel */
+    width: 651px; /* Ancho del cuadro */
+    height: 366px; /* Altura del cuadro */
+    float: right; /* Coloca el cuadro a la derecha */
+    position: relative; /* Establece posición relativa */
+}
+.titulo-gris {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 10%; /* Ajusta la posición vertical del título */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Centra horizontalmente */
+    color: #000; /* Color negro */
+    font-size: 24px; /* Tamaño del texto */
+    font-weight: bold; /* Hace que el texto sea más grueso */
+}
+.texto-gris {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Centra exactamente */
+    color: #000; /* Color negro */
+    font-size: 14px; /* Tamaño del texto */
+    text-align: center; /* Centra horizontalmente el texto */
+}
+.foto-4 {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%; /* Tamaño medio */
+    margin-top: 0; /* Ajuste para que esté pegada al cuadro gris */
+    float: left; /* Coloca la imagen a la izquierda */
+    clear: left; /* Evita que elementos floten a la izquierda de la imagen */
+}
+.contenedor-negro {
+    background-color: #000000; /* Color piel */
+    width: 651px; /* Ancho del cuadro */
+    height: 367px; /* Altura del cuadro */
+    float: right; /* Coloca el cuadro a la derecha */
+    position: relative; /* Establece posición relativa */
+}
+.titulo-negro {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 10%; /* Ajusta la posición vertical del título */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Centra horizontalmente */
+    color: #ffffff; /* Color negro */
+    font-size: 24px; /* Tamaño del texto */
+    font-weight: bold; /* Hace que el texto sea más grueso */
+}
+.texto-negro {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Centra exactamente */
+    color: #ffffff; /* Color negro */
+    font-size: 14px; /* Tamaño del texto */
+    text-align: center; /* Centra horizontalmente el texto */
+}
+.foto-5 {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%; /* Tamaño medio */
+    margin-top: 0; /* Ajuste para que esté pegada al cuadro gris */
+    float: left; /* Coloca la imagen a la izquierda */
+    clear: left; /* Evita que elementos floten a la izquierda de la imagen */
+}
+.contenedor-amarillo {
+    background-color: #d6d300; /* Color piel */
+    width: 651px; /* Ancho del cuadro */
+    height: 367px; /* Altura del cuadro */
+    float: right; /* Coloca el cuadro a la derecha */
+    position: relative; /* Establece posición relativa */
+    display: flex; /* Usa flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+.titulo-amarillo {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 10%; /* Ajusta la posición vertical del título */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Centra horizontalmente */
+    color: #000000; /* Color negro */
+    font-size: 24px; /* Tamaño del texto */
+    font-weight: bold; /* Hace que el texto sea más grueso */
+}
+
+.texto-amarillo {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Centra exactamente */
+    color: #000000; /* Color negro */
+    font-size: 14px; /* Tamaño del texto */
+    text-align: center; /* Centra horizontalmente el texto */
+}
+
+
+.contenedor-negro-en-amarillo {
+    background-color: #000; /* Color negro */
+    width: 50%; /* Ancho del contenedor negro */
+    height: 80px; /* Altura del contenedor negro */
+    border-radius: 20px; /* Esquinas redondeadas */
+    display: flex; /* Usa flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+
+.texto-amarillo-en-negro {
+    color: #ffffff; /* Color amarillo */
+    font-size: 20px; /* Tamaño del texto */
+}

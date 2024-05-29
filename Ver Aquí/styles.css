@@ -1,0 +1,110 @@
+.float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    bottom: 40px;
+    right: 40px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 999;
+}
+
+.fa-whatsapp {
+    font-size: 60px;
+}
+
+.float:hover{
+    background-color: #28ec70;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #09a195; /* Fondo azul */
+}
+
+.rectangulo-negro {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+
+.icono-red-social {
+    width: 30px;
+    margin: 0 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.icono-red-social:nth-child(1) {
+    right: 110px;
+}
+
+.icono-red-social:nth-child(2) {
+    right: 70px;
+}
+
+.icono-red-social:nth-child(3) {
+    right: 30px;
+}
+
+.texto-contenedor {
+    text-align: left;
+}
+
+.texto-blanco {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.titulo {
+    color: #333;
+    text-align: center;
+    margin-top: 100px; /* Ajusta la distancia del título desde la parte superior */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente diferente */
+    font-size: 40px; /* Tamaño del título */
+}
+
+.subtitulo {
+    text-align: center;
+    color: #1a1616; /* Color gris */
+    font-size: 14px; /* Tamaño del subtítulo */
+    margin-top: 10px; /* Ajusta la distancia entre el título y el subtítulo */
+    font-weight: bold; /* Hace que el subtítulo principal tenga las letras más gruesas */
+}
+
+.texto {
+    text-align: center;
+    margin-top: 40px;
+    color: #161313; /* Color gris */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Mismo tipo de fuente que el subtítulo */
+    font-size: 16px; /* Tamaño del texto */
+    padding: 0 20px; /* Ajusta el relleno horizontal para evitar que los bordes se corten */
+}
+
+.balance-juices {
+    font-weight: bold; /* Hace que las letras sean más gruesas */
+    color: #000; /* Color negro */
+}
+
+.contenedor-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espacio entre la imagen y el video */
+    margin-top: 20px; /* Ajusta según sea necesario */
+}
+
+.foto-2 {
+    max-width: 30%; /* Ajusta el ancho máximo según sea necesario */
+}
+
+.video-1 {
+    max-width: 100%; /* Ajusta el ancho máximo según sea necesario */
+}

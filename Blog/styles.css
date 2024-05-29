@@ -1,0 +1,127 @@
+.float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    bottom: 40px;
+    right: 40px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 999;
+}
+
+.fa-whatsapp {
+    font-size: 60px;
+}
+
+.float:hover{
+    background-color: #28ec70;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Fondo blanco */
+}
+
+.titulo {
+    text-align: center;
+    color: #333;
+    margin-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+.subtitulo {
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.texto {
+    text-align: justify;
+    margin-top: 20px;
+    color: #ffffff; /* Color del texto dentro del cuadro, blanco */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 20px; /* Ajuste del relleno para equiparar todo el texto */
+    background-color: #000000; /* Color del cuadro, negro */
+}
+
+.rectangulo-negro {
+    background-color: #000000; /* Color negro */
+    width: 100%; /* Ancho del rectángulo al 100% */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.icono-red-social {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+}
+
+.icono-red-social:nth-child(1) {
+    right: 170px;
+}
+
+.icono-red-social:nth-child(2) {
+    right: 120px;
+}
+
+.icono-red-social:nth-child(3) {
+    right: 70px;
+}
+
+.texto-blanco {
+    color: #ffffff;
+    display: inline-block;
+    margin: 15px 20px;
+    font-size: 18px;
+}
+
+.texto-blanco:nth-child(1) {
+    margin-left: 100px;
+}
+
+.blog-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+.blog-content h2 {
+    margin-top: 40px;
+}
+
+.blog-content p {
+    margin-bottom: 20px;
+}
+
+.contenido-negro {
+    background-color: #000000; /* Color del cuadro de contenido, negro */
+    color: #ffffff; /* Color del texto dentro del cuadro, blanco */
+    padding: 20px; /* Ajuste del relleno para equiparar todo el texto */
+}
+
+.imagen-eddie {
+    width: 80px; /* Ajusta el tamaño según sea necesario */
+    height: 80px; /* Ajusta el tamaño según sea necesario */
+    position: absolute;
+    top: 40px; /* Ajusta la posición vertical según sea necesario */
+    left: 50%; /* Coloca la imagen en el centro horizontalmente */
+    transform: translateX(-50%); /* Centra horizontalmente */
+    border-radius: 50%; /* Asegura que la imagen sea circular */
+    border: 2px solid #fff; /* Añade un borde blanco */
+    z-index: 1; /* Asegura que la imagen esté por encima del rectángulo negro */
+}
+
+
